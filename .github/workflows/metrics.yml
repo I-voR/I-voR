@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          user: I-vor
+          user: I-voR
           token: ${{ secrets.METRICS_TOKEN }} 
           template: classic
           base: header, activity, community, repositories, metadata
