@@ -11,6 +11,12 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 0 * * MON'
+  workflow_dispatch:
+      inputs:
+      name:
+        description: 'Start Metrics Workflow'
+        required: true
+        default: 'Metrics for I-voR'
 
   # Allows you to run this workflow manually from the Actions tab
 
