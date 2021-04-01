@@ -13,7 +13,6 @@ on:
     - cron: '0 0 * * MON'
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -30,8 +29,6 @@ jobs:
           base: header, repositories 
           repositories_forks: yes 
           repositories_affiliations: ""
+          token: ${{ secrets.METRICS_TOKEN }}          # A personal token from an user account with read:org scope
+          user: I-voR
             # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      
-      - uses: actions/checkout@v2
-          echo Add other actions to build,
-          echo test, and deploy your project.
