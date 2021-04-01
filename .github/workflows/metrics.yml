@@ -29,6 +29,6 @@ jobs:
           base: header, repositories 
           repositories_forks: yes 
           repositories_affiliations: ""
-          token: ${{ secrets.METRICS_TOKEN }}          # A personal token from an user account with read:org scope
+          token: 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          # A personal token from an user account with read:org scope
           user: I-voR
             # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
