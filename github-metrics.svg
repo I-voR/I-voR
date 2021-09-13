@@ -1413,7 +1413,7 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <span class="sha">#4ad1ff6</span>
+                                        <span class="sha">#547b454</span>
                                         <span class="message">Update github-metrics.svg - [Skip GitHub Action]</span>
                                     </div>
                                 </div>
@@ -1423,7 +1423,7 @@
                 </div>
             </section>
             <footer>
-                <span>Last updated 06/09/2021, 03:07 (timezone Europe/Warsaw) with lowlighter/metrics@3.13.0</span>
+                <span>Last updated 13/09/2021, 03:03 (timezone Europe/Warsaw) with lowlighter/metrics@3.13.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
